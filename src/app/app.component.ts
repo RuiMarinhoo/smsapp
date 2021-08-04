@@ -9,9 +9,6 @@ import {Socket} from "ngx-socket-io";
 export class AppComponent {
   title = 'smsapp';
 
-  constructor(private socket: Socket) {
-    // this.socket.emit('message', 'abc');
-    this.socket.connect();
-    console.log(this.socket);
-  }
+  constructor() { }
+
 }
